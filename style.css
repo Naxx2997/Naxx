@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+
+body{
+    align-items: center;
+    background: linear-gradient(345deg, #1776b9, #c2cfda);
+    display: flex;
+    font-family: 'Verdana', sans-serif;
+    font-display: swap;
+    font-style: oblique;
+    height: auto;
+    justify-content: center;
+}
+
+.text{
+
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 6px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    scale: 3;
+    top: 350px;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.social-icon{
+    top: 50%;
+    text-decoration: none;
+    scale: 5;
+    margin: 0 80px;
+    color: rgb(58, 106, 196);
+    top: 460px;
+    position: relative;
+    transition: color 0.2s;
+}
+
+.social-icon:hover {
+    color: rgb(149, 105, 184);
+}
