@@ -1,45 +1,32 @@
-html{
-    box-sizing: border-box;
-    height: 100%;
+body {
+    background-image: radial-gradient(rgb(240, 240, 240), rgb(71, 70, 70), rgb(0, 0, 0));
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
 }
 
-
-body{
-    align-items: center;
-    background: linear-gradient(345deg, #1776b9, #c2cfda);
-    display: flex;
-    font-family: 'Verdana', sans-serif;
-    font-display: swap;
-    font-style: oblique;
-    height: auto;
-    justify-content: center;
+.frame {
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-family: "Sixtyfour Convergence";
 }
 
-.text{
+header {
+    margin-bottom:100px
+}
 
-    border: 1px solid rgba(255, 255, 255, 0.01);
-    border-radius: 6px;
+.bandcamp {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-family: "Sixtyfour Convergence";
     text-align: center;
-    justify-content: center;
-    position: absolute;
-    scale: 3;
-    top: 350px;
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255, 255, 255, 0.75);
-}
-
-.social-icon{
-    top: 50%;
-    text-decoration: none;
-    scale: 5;
-    margin: 0 80px;
-    color: rgb(58, 106, 196);
-    top: 460px;
-    position: relative;
-    transition: color 0.2s;
-}
-
-.social-icon:hover {
-    color: rgb(149, 105, 184);
 }
